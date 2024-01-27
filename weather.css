@@ -1,0 +1,100 @@
+/* Nabin_Dangal_2417484 */
+/* Styling the whole code */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins,sans-serif;
+    box-sizing: border-box;
+
+/* Styling the class weather */
+}
+.weather{
+    width: 91%;
+    max-width: 475px;
+    background: linear-gradient(135deg,#77f481,#034e07);
+    color: #fff;
+    margin: 105px auto 0;
+    border-radius: 22px;
+    padding: 40px 35px;
+    text-align: center;
+
+/*Styling the class searchbar  */
+}
+.searchbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Giving style to the input of class searchbar  */
+.searchbar input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+/* Giving style to the button of class searchbar */
+.searchbar button{
+    outline: 0;
+    border: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+/* Giving style to the image used as button of class searchbar */
+.searchbar button img{
+    width: 16px;
+}
+
+/* Giving style to the class temperature-icon */
+.temperature-icon{
+    width: 165px;
+    margin-top: 25px;
+}
+.weather h1{
+    font-size: 70px;
+    font-weight: 450;
+}
+.weather h2{
+    font-size: 35px;
+    font-weight: 350;
+    margin-top: -5px;
+}
+/* Giving style to the class windandhumidity */
+.windandhumidity{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+/* Styling the image used in class humidity */
+.humidity img{
+    height: 60px;
+    width: 60px;
+}
+
+/* Styling the image used in class wind */
+.wind img{
+    height: 60px;
+    width: 60px;
+}
+p{
+    font-size: 20px;
+}
+.pressure img{
+    height: 60px;
+    width: 60px;
+}
